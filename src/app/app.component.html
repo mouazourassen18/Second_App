@@ -1,4 +1,14 @@
 <hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<p>Start editing to see some magic happen :)</p>
+<h1>Angular is a greate framework</h1>
+<H2>
+  {{ pip | lowercase }}
+  <h3>{{ nami | uppercase }}</h3>
+  <div>{{ message }}</div>
+
+  <app-test
+    (chilEvent)="message = '{{event}}'"
+    [pardata]="fname"
+    [nam]="nami"
+  ></app-test>
+</H2>
