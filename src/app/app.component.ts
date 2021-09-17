@@ -13,4 +13,10 @@ export class AppComponent {
   message = '';
 
   pip = 'HELLO MAN ';
+  tit = ' tilte case every first word will be capitalized ';
+  person ={
+    "first" : "Adam",
+    "last" : "Ouazou "
+  }
+   date = new Date();
 }
